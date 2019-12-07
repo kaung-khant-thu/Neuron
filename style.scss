@@ -1,0 +1,26 @@
+
+@import "bootstrap/css/bootstrap.min.css";
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+$font-stack:'Merriweather', serif;
+
+$primary-color:#bfba55;
+
+
+
+
+@import "scss/navigation";
+@import "scss/general";
+
+@import "scss/hero";
+
+@import "scss/articles";
+
+@import "scss/footer";
+
+@import "scss/general";
+
+@import "scss/page";

@@ -1,0 +1,66 @@
+.articles{
+    margin-bottom:100px;
+    margin-top:100px;
+    hr
+{
+    margin:65px 0;
+}
+}
+hr{
+    margin:65px 0;
+} 
+
+.btn-article{
+    border:1px solid #ccc;
+    border-radius:100px;
+    padding:10px 20px;
+    font-weight:bold;
+    padding:15px 22px;
+    &:hover{
+        color:white;
+        background:$primary-color;
+    }
+    &:focus{
+        outline:none;
+    }
+}
+
+
+
+
+.article-title
+{
+    font-family:$font-stack;
+    font-weight:bold;
+    font-size:26px;
+    letter-spacing:0.5px;
+    margin-top:30px;
+    a{
+        color:#222222;
+        &:hover{
+            color:$primary-color;
+            text-decoration:none;
+        }
+    }
+    
+}
+
+ 
+
+
+
+.img-author{width:42px}
+
+.article-meta{
+    
+    margin:20px 0;
+    
+    span{
+        margin:0 10px;
+        font-family:$font-stack;
+        color:#333333;
+    }
+}
+ 
+
+.article-body{margin:30px 0}

@@ -1,0 +1,36 @@
+.banner{
+    color:white;
+    padding:200px 0;
+    background-size:cover;
+    background-position:top center;
+    position: relative;
+    
+    h1{
+        text-align:center;
+        font-family:$font-stack;
+        font-size:62px;
+        font-weight:bold;}
+}
+.overlay{
+    background: rgba(0,0,0,0.7 );
+        height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.banner-content{
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.about-banner{background:url("images/Untitled design (1).png");background-attachment: fixed;}
+
+.gallery-banner{background:url("images/gallery-bg.jpg");background-attachment: fixed;}
+
+.contact-banner{background:url("images/contact-bg.jpg");background-attachment: fixed;}
+
+.content{margin:70px 0}

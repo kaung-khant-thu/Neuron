@@ -1,0 +1,33 @@
+.footer{padding-top:80px;padding-bottom:80px;background:black;color:white;font-family:$font-stack;hr{border-color: #121212;margin-top: 62px;margin-bottom: 42;}}
+
+.footer-about h3,.footer-contact h3{font-weight:bold}
+
+.copy-right{margin-top:30px}
+
+.social-icons{
+    li{
+        padding-left: 50px;
+        padding-right: 50px;
+
+        a{
+            color:#292929;
+            &:hover{
+                color:$primary-color;
+            }
+        }
+
+        i{
+            border:2px solid #292929;
+            height: 65px;
+            width: 65px;
+            line-height: 65px;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 100px;
+
+            &:hover{
+                border-color:$primary-color;
+            }
+        }
+    }
+}
